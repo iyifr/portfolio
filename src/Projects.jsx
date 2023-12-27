@@ -37,7 +37,7 @@ const Projects = () => {
 			<>
 				<p className='text-base'>A couple of things i built</p>
 
-				{data?.allProjects?.map((item) => (
+				{data.allProjects.map((item) => (
 					<Project
 						name={item.name}
 						description={item.description}
