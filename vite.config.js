@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
 	plugins: [react()],
 	assetsInclude: '**/*.m4a',
+	define: {
+		'process.env.VITE_DATOCMS_TOKEN': JSON.stringify(
+			process.env.VITE_DATOCMS_TOKEN
+		),
+	},
 })
