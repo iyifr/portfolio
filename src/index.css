@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+	body {
+		@apply text-[#3BFA9E];
+		font-family: 'Space Mono', sans-serif;
+	}
+	p {
+		@apply text-[18px];
+	}
+}
